@@ -1,5 +1,5 @@
 /**
-	Write a method names showCar. The method should accept two arguments: a 
+	Write a method named showCar. The method should accept two arguments: a 
 	reference to a string object and an integer. The integer argument is a 
 	character position within the String, with the first character being at 
 	position 0. When the method executes, it should display the character at 
@@ -27,12 +27,13 @@ public class Challenge5_1
 		// Call the showCar() method:
 		showCar(s, position);
 	}
-		
+	
+	// The showCar method, with its two arguments.
 	public static void showCar(String myString, int myPos)
 	{
 		char result = myString.charAt(myPos);
 		System.out.print("Display '" + result + "', because it is in position " + 
 						myPos + ".");
-	}
-}	// End of class.
+	}	// End main method. 
+}		// End of class.
 		
